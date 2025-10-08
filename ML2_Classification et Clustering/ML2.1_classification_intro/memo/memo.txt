@@ -10,9 +10,9 @@ center and standardized the values (Scaler())
 
 2) Confusion matrix:
 a)How many patient were incorrectly diagnosed with a Heart disease (false positives) ?
-12
-b)How many patient were incorrectly diagnosed as being Healthy (false negatives)?
 5
+b)How many patient were incorrectly diagnosed as being Healthy (false negatives)?
+12
 
 3) Changing the threshold:
 a)What is the precision if we change the threshold to have a 0.95 recall ? 
