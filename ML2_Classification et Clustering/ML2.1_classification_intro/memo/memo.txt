@@ -1,0 +1,30 @@
+1) What are the necessary preprocessing steps regarding:
+a) classes ?
+look the balance between classe : same number of samples in both classes? otherwise, choose another model(type SVM)
+
+b) categorical features ? 
+convert into binary value 0-1  or ordinal value (if distances between variables)
+
+c) continuous features ?
+center and standardized the values (Scaler()) 
+
+2) Confusion matrix:
+a)How many patient were incorrectly diagnosed with a Heart disease (false positives) ?
+12
+b)How many patient were incorrectly diagnosed as being Healthy (false negatives)?
+5
+
+3) Changing the threshold:
+a)What is the precision if we change the threshold to have a 0.95 recall ? 
+precision :  0.48148148148148145
+
+b) How many patient were incorrectly diagnosed as being Healthy (false negatives)?
+2 
+
+4) Choosing an overall metric:
+
+a) If I can compute my test sample probabilities and care more about the positive class, which overall metric should I use to compare classifiers ? 
+we can use : ROC AUC score, Average precison 
+
+b) And if I only have the class predictions and no probabilities ?
+We can use : accuracy, precision, recall , Fbeta_score
